@@ -1,0 +1,24 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.input{
+    border-radius: 50px;
+    background-color: #004d4d;
+    width: 120%; /* O el tamaño que desees */
+  height: 30px; /* Mantiene la proporción original de la imagen */
+  border: none;
+  text-align: center;
+}
+.input::placeholder {
+    color: #ffffff93; 
+    opacity: 1; 
+}
+
+.button{
+    background-color: #004d4d;
+    
+}
