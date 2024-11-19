@@ -1,0 +1,34 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #A3C757; /* Color de fondo de la barra de navegación */
+    padding: 15px 20px; /* Espaciado interno */
+    color: white; /* Color del texto */
+    position: fixed; /* Fija el navbar en la parte superior */
+    top: 0; /* Ubicación en la parte superior */
+    left: 0; /* Alineación a la izquierda */
+    right: 0; /* Alineación a la derecha */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.logoNav {
+    height: 40px; /* Altura del logo */
+}
+.logout-icon-button {
+    padding: 10px 10px; /* Ajusta el padding según sea necesario */
+    border: 0;
+    border-radius: 100px;
+    color: #ffffff; /* Color del ícono */
+    font-weight: bold; /* Peso de la fuente */
+    transition: all 0.5s; /* Transición suave */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+.logout-icon-button:hover {
+    background-color: #7b9642; /* Color de fondo al pasar el mouse */
+    box-shadow: 0 0 20px #6fc5ff50; /* Sombra al pasar el mouse */
+    transform: scale(1.1); /* Escala al pasar el mouse */
+}

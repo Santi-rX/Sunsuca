@@ -3,8 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
 }
-
 
 .logo {
   height: 6em;
@@ -12,19 +12,25 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em rgba(100, 108, 255, 0.67)); /* Color RGBA para mayor claridad */
 }
+
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em rgba(97, 218, 251, 0.67)); /* Color RGBA para mayor claridad */
 }
 
 .imagen {
-  width: 100px; /* O el tamaño que desees */
+  width: 250px; /* O el tamaño que desees */
   height: auto; /* Mantiene la proporción original de la imagen */
   padding-top: 10px;
+  margin-bottom: 10px;
 }
 
+.p {
+  font-weight: bold; /* Cambiado de 'font-size: bold;' a 'font-weight: bold;' */
+}
 
 @keyframes logo-spin {
   from {

@@ -1,0 +1,89 @@
+h1, h2, p {
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+form {
+    background-color: #A3C757;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem; /* Aumentar el margen inferior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, h2 {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 0.5em;
+    align-items: center;
+}
+
+textarea, input[type="file"] {
+    width: 500px;
+    height: 200px;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #97b84f;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    max-width: 500px;
+    align-items: center;
+}
+
+/* Cambiar el color del placeholder */
+textarea::placeholder {
+    color: #f0f0f0; /* Cambia este color al que desees */
+    opacity: 1; /* Asegúrate de que el placeholder sea completamente opaco */
+}
+
+button {
+    background-color: #004D4D;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out;
+}
+
+button:hover {
+    background-color: #007a7a;
+}
+
+.publicacion-container {
+    background-color: #30344c;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+}
+
+.imagen-container {
+    margin-bottom: 1em;
+}
+
+.texto-container {
+    background-color: #30344c;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.texto-container2 {
+    color: #c0c3d7;
+    overflow-wrap: break-word; /* Permitir que el texto se ajuste */
+    word-wrap: break-word; /* Para compatibilidad con navegadores más antiguos */
+    white-space: pre-wrap; /* Mantener los saltos de línea */
+    margin-top: 0.5em; /* Espacio entre el texto y la imagen */
+}

@@ -1,24 +1,24 @@
-.formulario{
+.formularioLog{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    background-color: #dcae1d;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1em;
 }
 .input{
     border-radius: 50px;
     background-color: #004d4d;
-    width: 120%; /* O el tamaño que desees */
-  height: 30px; /* Mantiene la proporción original de la imagen */
+    width: 250px; /* O el tamaño que desees */
+  height: 40px; /* Mantiene la proporción original de la imagen */
   border: none;
   text-align: center;
 }
 .input::placeholder {
     color: #ffffff93; 
     opacity: 1; 
-}
-
-.button{
-    background-color: #004d4d;
-    
 }
